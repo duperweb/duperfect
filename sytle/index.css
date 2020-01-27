@@ -1,0 +1,33 @@
+/*
+--select every single element
+-- reset css margin and padding, border 
+-- right and left are cumulative 20+30=50
+-- top margin and margin are collapsable 20+30=30
+*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*when adding 2em it will be 200%*/
+body {
+    font-size: 100%;
+}
+
+/* 
+--remove line in all links
+-- links have state
+-- can block level by defualt it's inline
+*/
+a {
+    text-decoration: none;
+}
+
+
+.head-nav-menu a {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
